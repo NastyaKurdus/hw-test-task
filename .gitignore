@@ -1,0 +1,17 @@
+# dependencies
+node_modules
+
+# production
+dist
+dist-preview
+example/dist/
+.idea
+.vscode
+.claude
+
+# misc
+*.log
+.DS_Store
+.cache
+example/.cache
+stats.html
