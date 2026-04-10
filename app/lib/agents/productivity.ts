@@ -16,6 +16,7 @@ export async function runProductivityCheckAgent(messages: ModelMessage[]) {
         5. Once you have the number of days, use 'get_recent_activity' and perform the final analysis as a supportive senior dev.
         6. FINAL STEP RULE:
         - When you provide the final analysis based on 'get_recent_activity', make it a COMPLETE summary.
+        - The performance analysis should be detailed and include the names of the tasks.
         - DO NOT ask follow-up questions like "What's next?" or "Want to discuss?".
         - End with a cool sign-off (e.g., "Now get to work!", "Stay hydrated!", "Happy coding!").
         - Your goal is to provide value and let the user go back to coding
